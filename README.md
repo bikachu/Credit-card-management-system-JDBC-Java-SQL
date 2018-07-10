@@ -2,7 +2,7 @@
 ----------------------------------------------------------------
 This project use JDBC(Java and MySQL) to implement credit card system management requirements.
 
-* The sql database file is not included due to privacy
+* The sql database create file is not included due to privacy
 
 
 ------------------------
@@ -27,3 +27,13 @@ Customer Details Module:
     3) To generate monthly bill for a credit card number for a given month and year.
     
     4) To display the transactions made by a customer between two dates. Order by year, month, and day in descending order.
+
+
+
+---------------------
+The project contains 4 packages:
+
+1. BasicJava: Including connection,customers,MyQuery, Transaction
+2. Dao : Including customersDao, TransactionDao
+3. Module: customersDaoImpl, TransactionDaoImpl
+4. Run: Main, customersRun. TransactionRun.
