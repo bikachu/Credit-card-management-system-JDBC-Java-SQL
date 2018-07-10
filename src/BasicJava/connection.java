@@ -9,7 +9,7 @@ public class connection {
 
     private String dbUrl = "jdbc:mysql://localhost:3306/jdbc?useSSL=false";
     private String user = "root";
-    private String pass = "wslyp8288245";
+    private String pass = "*****"; //This is your MySQL's password
 
 
     public Connection getConnection() throws SQLException{
