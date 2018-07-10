@@ -27,7 +27,7 @@ public class customersDaoImpl implements customersDao
 
         System.out.println("the result is: ");
 
-        if( myRs.next()==false){
+        if( !myRs.next()){
                 System.out.println("The database don't records for you Social Security Number\nPlease check your SSN");
         }
         while( myRs.next()){
