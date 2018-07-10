@@ -2,7 +2,11 @@
 ----------------------------------------------------------------
 This project use JDBC(Java and MySQL) to implement credit card system management requirements.
 
-* The sql database create file is not included due to privacy
+* The sql database create file is not included due to privacy.
+* In order to successfully run this project, You need:
+
+        1. The SQL database file( contact me if you need validate this project)
+        2. change the password in connection.java for MySQL server.
 
 
 ------------------------
