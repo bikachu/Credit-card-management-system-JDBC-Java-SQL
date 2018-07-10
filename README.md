@@ -4,12 +4,16 @@ This project use JDBC(Java and MySQL) to implement credit card system management
 
 * The sql database file is not included due to privacy
 
+
 ------------------------
 
 Transaction Details Module:
     1) To display the transactions made by customers living in a given zipcode for a given month and year. Order by day in descending order.
     2) To display the number and total values of transactions for a given type.
-    3) To display the number and total values of transactions for branches in a given state
+    3) To display the number and total values of transactions for branches in a given state.
+    
+    
+
 ------------------------    
 Customer Details Module:
     1) To check the existing account details of a customer.
